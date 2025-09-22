@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Nica | harmoNICA</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  font-family:'Segoe UI',Arial,sans-serif;
+  background:#ffeef4;
+  color:#e0467e;
+}
+a{text-decoration:none;color:#e0467e;}
+a:hover{color:#f05288;}
+
+header{
+  background:#fff3f7;
+  display:flex;
+  justify-content:space-between;
+  padding:20px 40px;
+  align-items:center;
+}
+.logo{
+  font-size:2rem;
+  font-weight:bold;
+  color:#f05288;
+}
+.logo span{color:#e0467e;}
+nav a{
+  margin:10px;
+  font-weight:bold;
+}
+nav a.active{color:#f05288;}
+
+main{
+  padding:40px;
+  max-width:1100px;
+  margin:auto;
+}
+.about-container{
+  display:flex;
+  gap:40px;
+  align-items:flex-start;
+  flex-wrap:wrap;
+}
+.about-photo img{
+  width:250px;
+  border-radius:20px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  border:6px solid #ffd6e9;
+}
+.info-boxes{
+  flex:1;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
+.info-box{
+  background:#ffe0eb;
+  border-radius:15px;
+  padding:20px;
+  box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
+.info-box h3{
+  color:#f05288;
+  margin-bottom:10px;
+  font-size:1.3rem;
+}
+.info-box p, .info-box ul{
+  font-size:0.95rem;
+  color:#444;
+}
+.info-box ul{
+  list-style:disc;
+  padding-left:20px;
+}
+.welcome{
+  margin-top:50px;
+  background:#fce3f1;
+  padding:40px 20px;
+  text-align:center;
+  border-radius:20px;
+  box-shadow:0 5px 12px rgba(0,0,0,0.1);
+}
+.welcome h2{
+  font-size:2rem;
+  color:#f05288;
+}
+.welcome p{
+  color:#555;
+  margin-top:10px;
+  font-size:1rem;
+}
+
+footer{
+  text-align:center;
+  padding:15px;
+  background:#ffd6e9;
+  color:#e0467e;
+  font-size:0.9rem;
+  margin-top:50px;
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">Harmo<span>NICA</span></div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="abtme.html" class="active">About Nica</a>
+    <a href="bea.html">Beabadoobee</a>
+    <a href="theridleys.html">The Ridleys</a>
+    <a href="taylorswift.html">Taylor Swift</a>
+  </nav>
+</header>
+
+<main>
+  <h1 style="color:#f05288; margin-bottom:20px;">About Nica ⋆ ˚｡⋆୨୧˚</h1>
+  <div class="about-container">
+    <div class="about-photo">
+      <img src="nica.jpg" alt="Nica">
+    </div>
+    <div class="info-boxes">
+      <div class="info-box">
+        <h3>💖 Why I Love Music</h3>
+        <p>Music makes me feel alive, understood, and connected. It inspires me and gives me comfort in every mood.</p>
+      </div>
+
+      <div class="info-box">
+        <h3>🎶 Recommendations</h3>
+        <ul>
+          <li><b>Beabadoobee</b> – If You Want To</li>
+          <li><b>Taylor Swift</b> – Clean</li>
+          <li><b>The Ridleys</b> – Be With You</li>
+        </ul>
+      </div>
+
+      <div class="info-box">
+        <h3>🌸 Likes</h3>
+        <ul>
+          <li>Kyle ❤︎</li>
+          <li>Penguins</li>
+          <li>Canva</li>
+        </ul>
+      </div>
+
+      <div class="info-box">
+        <h3>🙅‍♀️ Dislikes</h3>
+        <ul>
+          <li>Cockroaches</li>
+          <li>Physical Activities</li>
+          <li>Chemistry</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="welcome">
+    <h2>Welcome to harmoNICA! 🌷</h2>
+  </div>
+</main>
+
+<footer><p>&copy; 2025 harmoNICA</p></footer>
+</body>
+</html>

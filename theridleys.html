@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Ridleys | harmoNICA</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  font-family:'Segoe UI',Arial,sans-serif;
+  background:#ffeef4;
+  color:#e0467e;
+}
+
+a{text-decoration:none;color:#e0467e;}
+a:hover{color:#f05288;}
+
+header{
+  background:#fff3f7;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 40px;
+}
+.logo{
+  font-size:2rem;
+  font-weight:bold;
+  color:#f05288;
+}
+.logo span{color:#e0467e;}
+nav a{
+  margin:0 10px;
+  font-weight:bold;
+}
+nav a.active{color:#f05288;}
+
+.artist-page{
+  padding:40px;
+}
+
+.artist-title{
+  text-align:center;
+  font-size:3rem;
+  color:#f05288;
+  margin-bottom:30px;
+}
+
+.artist-info{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center;
+  align-items:flex-start;
+  background:#fff3f7;
+  padding:20px;
+  border-radius:20px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+  margin-bottom:40px;
+}
+
+.artist-photo{
+  width:250px;
+  border-radius:20px;
+}
+
+.artist-details{
+  max-width:400px;
+}
+
+.artist-details h2{
+  color:#f05288;
+  margin-bottom:10px;
+}
+
+.artist-details p{
+  margin-bottom:8px;
+  line-height:1.5;
+}
+
+.artist-songs{
+  text-align:center;
+}
+
+.artist-songs h2{
+  margin-bottom:20px;
+  color:#f05288;
+}
+
+.spotify-embeds{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center;
+}
+
+footer{
+  text-align:center;
+  padding:15px;
+  background:#ffd6e9;
+  color:#e0467e;
+  font-size:0.9rem;
+}
+.spotify-frame {
+  border: none;
+  border-radius: 12px; 
+}
+</style>
+</head>
+
+<body>
+<header>
+  <div class="logo">Harmo<span>NICA</span></div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="abtme.html">About Nica</a>
+    <a href="bea.html">Beabadoobee</a>
+    <a href="theridleys.html" class="active">The Ridleys</a>
+    <a href="taylorswift.html">Taylor Swift</a>
+  </nav>
+</header>
+
+<main class="artist-page">
+  <h1 class="artist-title">⤷ The Ridleys ⋆.˚ !</h1>
+
+  <section class="artist-info">
+    <img src="theridleys.jpg" alt="The Ridleys" class="artist-photo">
+
+    <div class="artist-details">
+      <h2>Profile</h2>
+      <p><strong>Stage Name:</strong> The Ridleys</p>
+      <p><strong>Debut:</strong> 2017 (Philippines)</p>
+      <p><strong>Genre:</strong> Indie Folk / Acoustic</p>
+      <p>
+        The Ridleys are an indie-folk band known for their heartfelt lyrics and warm,
+        acoustic sound. Their music often tells stories of love, friendship,
+        and the quiet beauty of everyday life.
+      </p>
+    </div>
+  </section>
+
+  <section class="artist-songs">
+    <h2>Recommendations !</h2>
+    <div class="spotify-embeds">
+      <iframe style="border-radius:12px; border:none;"
+        src="https://open.spotify.com/embed/track/5Zwf1cXIQpHWCxxfVFnKoB?utm_source=generator"
+          width="300" height="352"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+          class="spotify-frame">
+        </iframe>
+
+      <iframe style="border-radius:12px; border:none;"
+        src="https://open.spotify.com/embed/track/1abeRpm7JUXQPMZjyqHNIF?utm_source=generator"
+          width="300" height="352"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+          class="spotify-frame">
+        </iframe>
+
+      <iframe style="border-radius:12px; border:none;"
+        src="https://open.spotify.com/embed/track/05CEP1Ydn8oDqOVQmUnuME?utm_source=generator"
+          width="300" height="352"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+          class="spotify-frame">
+        </iframe>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 harmoNICA</p>
+</footer>
+</body>
+</html>
